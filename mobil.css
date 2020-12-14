@@ -1,0 +1,49 @@
+@media (max-width: 600px) {
+	nav a {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 10px;
+		border-bottom: 2px black solid;
+		width: 80%;
+	}
+	header {
+		margin: 0;
+		width: 100%;
+		margin-top: 5px;
+	}
+	.about_company div {
+		display: block;
+	}
+	.about_company p {
+		width: 100%;
+		text-align: justify;
+	}
+	img[src="logo.jpg"] {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.team_flex {
+		display: block;
+		padding: 0;
+	}
+	.team_flex div {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		margin-bottom: 15px;
+	}
+	.team_flex a {
+		width: 80%;
+		margin: 0 auto;
+	}
+	.price {
+		display: block;
+	}
+	.price ul {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	.contacts input, .contacts textarea {
+		width: 90%;
+	}
+}

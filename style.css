@@ -1,0 +1,162 @@
+body {
+	margin: 0;
+}  
+nav {
+	text-align: center;
+	padding: 20px;
+}  
+nav a {
+	text-decoration: none;
+	color: black;
+	margin: 0 4%; 
+}
+header {
+	background-image: url(polygons.png); 
+	text-align: center;
+	padding: 15% 0;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	width: 75%;
+	color: white;
+}
+header a {
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 6px;
+}
+main {
+
+}
+.about_company {
+	width: 75%;
+	margin: 0 auto;
+}
+h2 {
+	text-align: center;
+}
+.about_company div {
+	display: flex;
+}
+.about_company p {
+	width: 70%;
+}
+img[src="logo.jpg"] {
+	width: 30%;
+}
+.team {
+	width: 100%;
+}
+.about {
+	text-align: center;
+}
+.team_flex {
+	display: flex;
+	padding: 1.5%;
+}
+.team_flex div {
+	width: 22%;
+	margin: 0 1.5%;
+	padding: 1%;
+	box-shadow: 0 0 10px silver;
+}
+.team_flex img {
+	width: 100%;
+}
+.profession {
+	color: gray;
+}
+.write_to_me {
+	background-color: #7b68ee;
+	text-decoration: none;
+	padding: 4%;
+	display: block;
+	text-align: center;
+	border-radius: 10px;
+	color: white;
+}
+.rates {
+	background-color: gray;
+	padding: 20px;
+}
+.rates h2, .pay {
+	
+	color: white;
+}
+.price {
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.price ul {
+	width: 29%;
+	background-color: white;
+	list-style-type: none;
+	padding: 0;
+}
+.price li {
+	border-bottom: 1px gray solid ;
+	padding: 10px;  
+}
+.black {
+	background-color: black;
+	color: white;
+}
+#blue {
+	background-color: #7b68ee;
+	color: white;
+	padding: 25px;
+}
+.buy {
+	background-color: #DCDCDC;
+}
+.buy a {
+	text-decoration: none;
+	background-color: black;
+	padding: 7px 8px;
+	border-radius: 5px;
+	color: white;
+}
+.contacts {
+	padding: 20px;
+	background-color: #DCDCDC; 
+}
+.adress, .email, .phone {
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-left: 25px;
+}
+.adress {
+	background-image: url(address.png);	
+}
+.phone {
+	background-image: url(phone.png);
+}
+.email {
+	background-image: url(mail.png);
+}
+input, textarea {
+	display: block;
+	width: 100%;
+	margin: 10px;
+	padding: 5px;
+	border: 0;
+}
+input[type=submit] {
+	width: 20%;
+	background-color: black;
+	color: white;
+	padding: 15px;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+footer {
+	background-color: black;
+	color: white;
+}
+footer p {
+	margin: 0;
+}
